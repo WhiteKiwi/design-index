@@ -219,11 +219,11 @@ references:
     best_for: Recorded web and mobile user flows with intermediate states
     state: reference
 
-  - id: godly
-    name: Godly
+  - id: recent-design
+    name: Recent (formerly Godly)
     category: flow
     tier: inspiration
-    url: https://godly.website/
+    url: https://recent.design/
     best_for: Contemporary expressive web art direction and composition
     state: reference
 

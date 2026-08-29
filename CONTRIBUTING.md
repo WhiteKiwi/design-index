@@ -77,7 +77,12 @@ An item may have different states in different products. This repository default
 
    ```sh
    ruby scripts/validate_catalog.rb
-   lychee './**/*.md' --exclude '^https://jvns\.ca/?$' --exclude '^https://motion-primitives\.com/?$'
+   lychee './**/*.md' \
+     --exclude '^https://jvns\.ca/?$' \
+     --exclude '^https://motion-primitives\.com/?$' \
+     --exclude '^https://pageflows\.com/?$' \
+     --exclude '^https://styledictionary\.com/?$' \
+     --exclude '^https://design-system\.service\.gov\.uk/?$'
    ```
 
 6. Open a pull request using the template and explain what decision the change improves.

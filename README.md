@@ -57,11 +57,11 @@ The machine-readable [reference catalog](data/references.yml) is a maintained sh
 | [SEED Design](https://seed-design.io/) | semantic tokens and product-scale foundations | foundation |
 | [GOV.UK Design System](https://design-system.service.gov.uk/) | research-backed patterns and public contribution governance | foundation |
 | [Base UI](https://base-ui.com/react/overview/about) | accessible unstyled React behavior | implementation |
-| [React Aria Components](https://react-spectrum.adobe.com/react-aria/components.html) | accessible, internationalized behavior with composable styling | implementation |
+| [React Aria Components](https://react-aria.adobe.com/) | accessible, internationalized behavior with composable styling | implementation |
 | [shadcn/ui](https://ui.shadcn.com/) | open-code component ownership | implementation; adapt deliberately |
 | [Motion Primitives](https://motion-primitives.com/) | focused, inspectable motion patterns | implementation; use sparingly |
 | [Mobbin](https://mobbin.com/) | real product screens and end-to-end flows | inspiration with product context |
-| [Godly](https://godly.website/) | expressive web art direction | inspiration only |
+| [Recent (formerly Godly)](https://recent.design/) | expressive web art direction | inspiration only |
 
 ## Curation contract
 

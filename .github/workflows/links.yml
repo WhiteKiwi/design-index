@@ -30,6 +30,13 @@ jobs:
       - name: Check Markdown links
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8
         with:
-          # jvns.ca times out and motion-primitives.com rate-limits automated clients.
-          args: --verbose --no-progress --exclude '^https://jvns\.ca/?$' --exclude '^https://motion-primitives\.com/?$' './**/*.md'
+          # These canonical sites time out, reset, or rate-limit GitHub-hosted clients.
+          args: >-
+            --verbose --no-progress
+            --exclude '^https://jvns\.ca/?$'
+            --exclude '^https://motion-primitives\.com/?$'
+            --exclude '^https://pageflows\.com/?$'
+            --exclude '^https://styledictionary\.com/?$'
+            --exclude '^https://design-system\.service\.gov\.uk/?$'
+            './**/*.md'
           fail: true

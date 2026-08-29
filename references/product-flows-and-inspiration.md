@@ -24,7 +24,7 @@ Use shipped-product references to study **behavior and sequence**. Use visual ga
 
 ## Web art direction and composition
 
-### [Godly](https://godly.website/)
+### [Recent (formerly Godly)](https://recent.design/)
 
 - **Useful for:** expressive web, app, UI, and visual-design references with strong contemporary art direction.
 - **Study:** type scale, image treatment, transitions, composition, and one memorable signature move.
