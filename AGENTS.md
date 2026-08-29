@@ -15,6 +15,14 @@ Every added reference must include:
 - license status when code or assets may be copied;
 - `last_verified` in `data/references.yml`.
 
+Keep the shortlist in `data/references.yml` valid with:
+
+```sh
+ruby scripts/validate_catalog.rb
+```
+
+One entry has one primary category and one tier. Search IDs, URLs, and repositories before adding anything. Every human-readable entry names both a useful idea and a limit.
+
 Prefer official documentation and source repositories. Clearly mark inference and avoid claiming accessibility from appearance alone.
 
 ## Git

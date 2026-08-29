@@ -1,0 +1,72 @@
+name: Suggest a reference
+description: Propose a source that adds a durable, distinctive design lesson.
+title: "reference: "
+labels: [reference]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Reference name
+    validations:
+      required: true
+  - type: input
+    id: canonical_url
+    attributes:
+      label: Canonical URL
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source repository
+      description: Required when code or assets can be copied.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary category
+      options:
+        - principle
+        - system
+        - primitive
+        - library
+        - flow
+        - portfolio
+        - workflow
+        - index
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: What is it specifically useful for?
+      description: Describe the decision or lesson, not whether it looks good.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limits or risks
+      description: Include license, maintenance, accessibility, dependency, or context concerns.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: Use the exact license or say what still needs verification.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the repository and open issues for duplicates.
+          required: true
+        - label: I used or inspected this reference myself.
+          required: true
+        - label: I disclosed any affiliation or sponsorship below.
+          required: true
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Affiliation or additional context

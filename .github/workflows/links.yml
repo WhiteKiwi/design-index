@@ -1,4 +1,4 @@
-name: Link check
+name: Quality
 
 on:
   push:
@@ -12,6 +12,15 @@ permissions:
   contents: read
 
 jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+
+      - name: Validate reference catalog
+        run: ruby scripts/validate_catalog.rb
+
   links:
     runs-on: ubuntu-latest
     steps:
@@ -21,6 +30,6 @@ jobs:
       - name: Check Markdown links
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8
         with:
-          # jvns.ca is valid but consistently times out from GitHub-hosted runners.
-          args: --verbose --no-progress --exclude '^https://jvns\.ca/?$' './**/*.md'
+          # jvns.ca times out and motion-primitives.com rate-limits automated clients.
+          args: --verbose --no-progress --exclude '^https://jvns\.ca/?$' --exclude '^https://motion-primitives\.com/?$' './**/*.md'
           fail: true

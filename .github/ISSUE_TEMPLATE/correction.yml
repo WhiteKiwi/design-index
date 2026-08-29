@@ -1,0 +1,25 @@
+name: Report a correction
+description: Report a broken link, changed license, stale claim, or classification issue.
+title: "correction: "
+labels: [correction]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File or reference
+      placeholder: references/component-libraries.md — Base UI
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is incorrect or stale?
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Canonical evidence
+      placeholder: https://official-source.example/
+    validations:
+      required: true

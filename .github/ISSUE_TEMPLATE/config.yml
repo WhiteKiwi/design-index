@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/WhiteKiwi/design-index/blob/main/CONTRIBUTING.md
+    about: Read the curation and acceptance criteria before proposing a change.

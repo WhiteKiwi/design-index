@@ -58,3 +58,12 @@ Separate:
 - **proposed:** the smallest change expected to improve it.
 
 This keeps taste decisive without presenting preference as a universal law.
+
+## Operational tools
+
+- [Storybook](https://storybook.js.org/) — encode component states and representative page compositions as reviewable artifacts.
+- [Chromatic](https://www.chromatic.com/) — hosted visual review and regression workflows around Storybook; evaluate pricing, data policy, and CI cost before adoption.
+- [Style Dictionary](https://styledictionary.com/) — transform one token source into platform outputs; token semantics and governance must exist before adding the build pipeline.
+- [Design Tokens Community Group](https://www.designtokens.org/) — follow the shared token format work when designing portable token data rather than inventing incompatible schemas.
+
+Tools make decisions visible and repeatable. They do not create the naming model, ownership, review authority, or migration plan by themselves.

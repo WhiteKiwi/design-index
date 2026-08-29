@@ -14,6 +14,19 @@ Study systems for their decision structure, not merely their component appearanc
 | [Vercel Geist](https://vercel.com/geist) | strict grid, neutral hierarchy, typography, and developer-facing documentation | that black-and-white alone creates identity |
 | [Linear Brand](https://linear.app/brand) | concise identity rules and controlled visual assets | that brand guidance replaces product UI rules |
 
+## Product systems worth studying
+
+| System | Study | Watch |
+| --- | --- | --- |
+| [GitHub Primer](https://primer.style/) | foundations, product patterns, multiple implementation layers, contribution paths, and public accessibility reporting | GitHub’s density and developer workflows are product-specific |
+| [Material 3](https://m3.material.io/) | tokenized color, typography, shape, motion, adaptive layout, and cross-platform guidance | recognizable defaults can overpower a distinct brand |
+| [Shopify Polaris](https://polaris.shopify.com/) | content, commerce workflows, foundations, and components documented as one product language | merchant-admin patterns do not automatically fit consumer surfaces |
+| [Fluent 2](https://fluent2.microsoft.design/) | multi-platform foundations, component anatomy, states, and accessibility | Microsoft ecosystem assumptions and density need translation |
+| [GOV.UK Design System](https://design-system.service.gov.uk/) | evidence-backed service patterns, explicit research status, accessibility, and open contribution governance | its visual identity is mandated for its context, not a neutral theme |
+| [U.S. Web Design System](https://designsystem.digital.gov/) | accessible public-service components, maturity labels, implementation guidance, and measurable adoption | federal-service constraints and typography are context-specific |
+
+The public-sector systems are especially valuable because they expose evidence, contribution status, and limits—not because another product should copy their appearance.
+
 ## Behavior and ownership
 
 | Reference | Role | Use when |

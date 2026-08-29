@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Design Index</title>
+  <desc id="desc">A decision-oriented field guide from principle to product.</desc>
+  <rect width="1200" height="460" fill="#0E100D"/>
+  <path d="M0 352H1200M792 0V460" stroke="#30332D"/>
+  <path d="M820 84H1128M820 140H1092M820 196H1152M820 252H1060" stroke="#B8FF3D" stroke-width="2"/>
+  <circle cx="1130" cy="352" r="56" fill="#B8FF3D"/>
+  <circle cx="1130" cy="352" r="19" fill="#0E100D"/>
+  <text x="72" y="92" fill="#B8FF3D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="4">WHITEKIWI / 2026</text>
+  <text x="68" y="218" fill="#F4F5EF" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" letter-spacing="-5">DESIGN INDEX</text>
+  <text x="72" y="286" fill="#A7AAA2" font-family="Arial, Helvetica, sans-serif" font-size="24">Principles → systems → primitives → patterns → products</text>
+  <text x="72" y="394" fill="#F4F5EF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">CURATED FOR DECISIONS, NOT COLLECTION</text>
+</svg>
