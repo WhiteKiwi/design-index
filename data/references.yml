@@ -1,0 +1,132 @@
+schema_version: 1
+last_verified: 2026-08-29
+
+references:
+  - id: seed-design
+    name: SEED Design
+    category: system
+    url: https://seed-design.io/
+    best_for: Semantic tokens and product-scale foundations
+    state: reference
+
+  - id: radix
+    name: Radix
+    category: primitive
+    url: https://www.radix-ui.com/
+    repository: https://github.com/radix-ui/primitives
+    best_for: Accessible behavior primitives and color-role anatomy
+    state: reference
+
+  - id: shadcn-ui
+    name: shadcn/ui
+    category: library
+    url: https://ui.shadcn.com/
+    repository: https://github.com/shadcn-ui/ui
+    license: MIT
+    best_for: Open-code component ownership
+    state: reference
+
+  - id: watermelon-ui
+    name: Watermelon UI
+    category: library
+    url: https://ui.watermelon.sh/
+    repository: https://github.com/WatermelonCorp/watermelon-platform
+    license: MIT
+    best_for: Broad modern React component exploration
+    state: reference
+
+  - id: skiper-ui
+    name: Skiper UI
+    category: library
+    url: https://skiper-ui.com/
+    best_for: Uncommon shadcn-compatible interactions and signature motion
+    license: Verify per free or paid component
+    state: reference
+
+  - id: shadcn-charts
+    name: shadcn Charts
+    category: library
+    url: https://ui.shadcn.com/charts
+    repository: https://github.com/shadcn-ui/ui
+    license: MIT
+    best_for: Composable Recharts presentation
+    state: reference
+
+  - id: tremor-blocks
+    name: Tremor Blocks
+    category: library
+    url: https://blocks.tremor.so/
+    repository: https://github.com/tremorlabs/tremor
+    license: Apache-2.0 for the linked source repository; verify exact block terms
+    best_for: Data-heavy dashboard patterns
+    state: reference
+
+  - id: react-bits
+    name: React Bits
+    category: library
+    url: https://www.reactbits.dev/
+    repository: https://github.com/DavidHDev/react-bits
+    license: MIT + Commons Clause; read exact terms
+    best_for: Text, background, and interaction motion prototypes
+    state: reference
+
+  - id: uiverse
+    name: Uiverse
+    category: library
+    url: https://uiverse.io/
+    repository: https://github.com/uiverse-io/galaxy
+    license: MIT
+    best_for: Community microinteraction exploration
+    state: reference
+
+  - id: 21st-dev
+    name: 21st.dev
+    category: library
+    url: https://21st.dev/
+    best_for: Shadcn-compatible component discovery
+    license: Verify per component
+    state: reference
+
+  - id: awesome-design-md
+    name: Awesome Design MD
+    category: workflow
+    url: https://github.com/VoltAgent/awesome-design-md
+    license: MIT
+    best_for: Repository-local design contracts for coding agents
+    state: reference
+
+  - id: taste-skill
+    name: Taste Skill
+    category: workflow
+    url: https://github.com/Leonxlnx/taste-skill
+    license: MIT
+    best_for: Explicit variance, motion, density, and anti-generic controls
+    state: reference
+
+  - id: brittany-chiang
+    name: Brittany Chiang
+    category: portfolio
+    url: https://brittanychiang.com/
+    best_for: Scannable developer portfolio information architecture
+    state: reference
+
+  - id: van-schneider
+    name: House of van Schneider
+    category: portfolio
+    url: https://vanschneider.com/
+    best_for: Editorial typography, whitespace, and image pacing
+    state: reference
+
+  - id: antfu
+    name: Anthony Fu
+    category: portfolio
+    url: https://antfu.me/
+    best_for: Public work as direct evidence
+    state: reference
+
+  - id: supah
+    name: Fabio Ottaviani / Supah
+    category: portfolio
+    url: https://www.supah.it/portfolio/
+    best_for: Short signature entry motion
+    state: reference
