@@ -4,13 +4,17 @@ Design Index borrows proven information-architecture and maintenance ideas from 
 
 ## Public indexes studied
 
-| Index | What it does well | Pattern adopted here |
-| --- | --- | --- |
-| [Awesome](https://github.com/sindresorhus/awesome) | a clear manifesto: curation over collection, explain why an item belongs, consistent categories and contribution rules | explicit scope, acceptance criteria, and reasons for inclusion |
-| [Awesome Design Tools](https://github.com/goabstract/Awesome-Design-Tools) | fast category navigation, consistent entry grammar, simple contributor rules, and useful labels | find-by-job navigation and predictable entry structure |
-| [Design Resources for Developers](https://github.com/bradtraversy/design-resources-for-developers) | broad coverage with a developer-friendly table of contents | implementation-oriented lanes without requiring design vocabulary |
-| [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems) | a focused survey of public systems | separate system study from component shopping |
-| [Awesome Design Systems](https://github.com/klaufel/awesome-design-systems) by klaufel | design systems, tokens, testing, books, talks, and tools in one taxonomy | include operations and governance, not only component sites |
+| Index | Coverage | Best use here | Limit |
+| --- | --- | --- | --- |
+| [Awesome](https://github.com/sindresorhus/awesome) | cross-domain index of curated indexes | curation manifesto, scope, acceptance criteria, and contribution grammar | discovery map, not design authority |
+| [Awesome Design Tools](https://github.com/goabstract/Awesome-Design-Tools) | tools, plugins, workflows, and learning resources | find-by-job navigation and predictable entry structure | maintenance and inclusion do not verify every tool |
+| [Design Resources for Developers](https://github.com/bradtraversy/design-resources-for-developers) | assets, UI libraries, templates, CSS, and developer tools | implementation-oriented lanes without requiring design vocabulary | broad coverage requires item-level license and quality checks |
+| [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems) | large catalog of public design systems with capability tags | compare system scope, source availability, voice, and design kits | catalog links can outlive the systems they describe |
+| [Awesome Design Systems](https://github.com/klaufel/awesome-design-systems) | systems, tokens, testing, books, talks, and operations | include governance and operations, not only component sites | developer-focused taxonomy still needs canonical-source verification |
+| [Awesome Styleguides](https://github.com/streamich/awesome-styleguides) | public styleguides, component workbenches, comparators, and tools | discover documentation structures and historical precedents | many linked styleguides are legacy or no longer maintained |
+| [Awesome Tailwind CSS](https://github.com/aniftyco/awesome-tailwindcss) | Tailwind tools, plugins, UI kits, blocks, and templates | map the current Tailwind implementation ecosystem | framework compatibility does not imply PIP token or accessibility fit |
+| [Awesome React Components](https://github.com/brillout/awesome-react-components) | React components organized by interaction job | discover narrow implementation candidates before registry search | each component needs its own maintenance, semantics, and license review |
+| [Awesome Storybook](https://github.com/lauthieb/awesome-storybook) | Storybook addons, examples, tooling, and learning resources | strengthen component documentation and visual-QA workflows | addon compatibility must be checked against the installed Storybook version |
 
 ## What Design Index intentionally changes
 

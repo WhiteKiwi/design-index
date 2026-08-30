@@ -16,12 +16,14 @@ Treat its controls as prompts for product-specific judgment, not universal defau
 
 ### 3. Primitive discovery
 
-- [21st.dev](https://21st.dev/)
-- [Watermelon UI](https://ui.watermelon.sh/)
-- [Skiper UI](https://skiper-ui.com/)
-- [React Bits](https://www.reactbits.dev/)
-- [Uiverse](https://uiverse.io/)
-- [Tremor Blocks](https://blocks.tremor.so/)
+| Source | Discovery lane | Verify before adoption |
+| --- | --- | --- |
+| [21st.dev](https://21st.dev/) | shadcn-compatible component discovery | author, component license, dependencies, semantics, and maintenance |
+| [Watermelon UI](https://ui.watermelon.sh/) | broad React components and dashboard ideas | consistency, focus, narrow layout, and source fit per component |
+| [Skiper UI](https://skiper-ui.com/) | uncommon interactions and signature motion | free/paid terms, keyboard path, and reduced-motion fallback |
+| [React Bits](https://www.reactbits.dev/) | text, background, cursor, and interaction motion | exact license, GPU cost, interruption, and static fallback |
+| [Uiverse](https://uiverse.io/) | community microinteractions across several stacks | provenance, semantics, state completeness, and responsive behavior |
+| [Tremor Blocks](https://blocks.tremor.so/) | dashboard and data-product compositions | exact block terms, dependency cost, and accessible data summary |
 
 Registries accelerate exploration. They do not decide hierarchy, brand, accessibility, maintenance cost, or whether an effect is needed.
 
@@ -61,9 +63,11 @@ This keeps taste decisive without presenting preference as a universal law.
 
 ## Operational tools
 
-- [Storybook](https://storybook.js.org/) — encode component states and representative page compositions as reviewable artifacts.
-- [Chromatic](https://www.chromatic.com/) — hosted visual review and regression workflows around Storybook; evaluate pricing, data policy, and CI cost before adoption.
-- [Style Dictionary](https://styledictionary.com/) — transform one token source into platform outputs; token semantics and governance must exist before adding the build pipeline.
-- [Design Tokens Community Group](https://www.designtokens.org/) — follow the shared token format work when designing portable token data rather than inventing incompatible schemas.
+| Tool | Makes visible | Adoption boundary |
+| --- | --- | --- |
+| [Storybook](https://storybook.js.org/) | component states and representative page compositions | stories do not replace integrated product QA |
+| [Chromatic](https://www.chromatic.com/) | hosted visual review and regression around Storybook | evaluate pricing, data policy, and CI cost |
+| [Style Dictionary](https://styledictionary.com/) | one token source transformed into platform outputs | establish token semantics and governance before adding the pipeline |
+| [Design Tokens Community Group](https://www.designtokens.org/) | shared token-format direction | follow the specification when portability is real; do not invent a premature interchange layer |
 
 Tools make decisions visible and repeatable. They do not create the naming model, ownership, review authority, or migration plan by themselves.

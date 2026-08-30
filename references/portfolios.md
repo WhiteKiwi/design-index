@@ -13,29 +13,35 @@ Combined direction: **evidence-first modern editorial portfolio with restrained 
 
 ## Engineering and public work
 
-- [Simon Willison](https://simonwillison.net/) — AI credibility through a large, searchable trail of experiments, tools, and writing.
-- [Eugene Yan](https://eugeneyan.com/) — a clear problem domain, selected prototypes, and guided entry points into deep archives.
-- [Chip Huyen](https://huyenchip.com/) — specific positioning followed by books, teaching, tools, and production evidence.
-- [Lilian Weng](https://lilianweng.github.io/) — deep learning notes as durable proof of expertise.
-- [Mitchell Hashimoto](https://mitchellh.com/) — concise identity, shipped products, and technical writing that explains judgment.
-- [Lea Verou](https://lea.verou.me/) — standards, products, research, and open source presented as one coherent practice.
-- [Julia Evans](https://jvns.ca/) — complex systems made approachable through writing and visual explanation.
-- [Maggie Appleton](https://maggieappleton.com/) — essays, notes, and visual explanations as a growing digital garden.
+| Reference | Evidence pattern | Study |
+| --- | --- | --- |
+| [Simon Willison](https://simonwillison.net/) | searchable experiments, tools, and writing | credibility built through a large public trail rather than a single claim |
+| [Eugene Yan](https://eugeneyan.com/) | selected prototypes and deep archives | clear problem positioning plus guided entry points |
+| [Chip Huyen](https://huyenchip.com/) | books, teaching, tools, and production work | specific positioning followed by multiple forms of evidence |
+| [Lilian Weng](https://lilianweng.github.io/) | durable deep-learning notes | long-form technical depth as the primary portfolio |
+| [Mitchell Hashimoto](https://mitchellh.com/) | shipped products and technical writing | concise identity supported by judgment and output |
+| [Lea Verou](https://lea.verou.me/) | standards, products, research, and open source | several practices presented as one coherent body of work |
+| [Julia Evans](https://jvns.ca/) | writing and visual explanation | making complex systems approachable without flattening them |
+| [Maggie Appleton](https://maggieappleton.com/) | essays, notes, and visual explanations | a growing digital garden as evidence of an evolving practice |
 
 ## Interaction craft
 
-- [Emil Kowalski](https://emilkowal.ski/) — projects and writing jointly establish a design-engineer identity.
-- [Rauno Freiberg](https://raunofreiberg.com/) — craft communicated through microinteraction consistency rather than spectacle.
-- [Bruno Simon](https://bruno-simon.com/) — a signature interaction that directly demonstrates skill, plus an accessible alternative path.
-- [Bret Victor / WorryDream](https://worrydream.com/) — projects and demonstrations unified by a durable problem thesis.
+| Reference | Signature | Boundary |
+| --- | --- | --- |
+| [Emil Kowalski](https://emilkowal.ski/) | projects and writing jointly establish a design-engineer identity | interaction supports explanation instead of replacing it |
+| [Rauno Freiberg](https://raunofreiberg.com/) | consistent microinteraction craft | restraint communicates quality better than spectacle |
+| [Bruno Simon](https://bruno-simon.com/) | a signature interaction directly demonstrates skill | preserve an accessible alternative path |
+| [Bret Victor / WorryDream](https://worrydream.com/) | projects and demonstrations share a durable problem thesis | novelty remains subordinate to the underlying idea |
 
 ## Editorial identity and progressive disclosure
 
-- [Derek Sivers](https://sive.rs/) — separate “10 seconds” and “10 minutes” paths.
-- [Patrick Collison](https://patrickcollison.com/) — interests and accumulated links reveal intellectual range without a large hero claim.
-- [Austin Kleon](https://austinkleon.com/about/) — one memorable sentence followed by progressively deeper biography and work.
-- [Jessica Hische](https://www.jessicahische.is/working) — greatest hits and full work taxonomy coexist.
-- [Iwan Baan](https://iwan.com/) — strong evidence allows the surrounding interface and metadata to stay quiet.
+| Reference | Information pattern | Study |
+| --- | --- | --- |
+| [Derek Sivers](https://sive.rs/) | separate “10 seconds” and “10 minutes” paths | explicit depth choices for different visitor intent |
+| [Patrick Collison](https://patrickcollison.com/) | interests and accumulated links | intellectual range without an oversized hero claim |
+| [Austin Kleon](https://austinkleon.com/about/) | one memorable sentence followed by deeper biography | progressive disclosure anchored by a clear identity |
+| [Jessica Hische](https://www.jessicahische.is/working) | greatest hits plus a full taxonomy | selection and completeness can coexist |
+| [Iwan Baan](https://iwan.com/) | evidence-heavy work with quiet chrome | strong evidence allows interface and metadata to recede |
 
 ## Review questions
 

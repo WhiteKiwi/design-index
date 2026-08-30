@@ -1,5 +1,5 @@
 schema_version: 2
-last_verified: 2026-08-29
+last_verified: 2026-08-30
 
 references:
   - id: seed-design
@@ -275,4 +275,73 @@ references:
     url: https://github.com/goabstract/Awesome-Design-Tools
     license: MIT
     best_for: Navigable design-tool taxonomy and consistent entry grammar
+    state: reference
+
+  - id: design-resources-for-developers
+    name: Design Resources for Developers
+    category: index
+    tier: inspiration
+    url: https://github.com/bradtraversy/design-resources-for-developers
+    license: MIT
+    best_for: Broad implementation-oriented discovery across UI libraries, assets, templates, and tools
+    limit: Verify the exact source, license, maintenance, and accessibility of every linked item
+    state: reference
+
+  - id: alexpate-awesome-design-systems
+    name: Awesome Design Systems by Alex Pate
+    category: index
+    tier: inspiration
+    url: https://github.com/alexpate/awesome-design-systems
+    license: Unlicense
+    best_for: Large public design-system survey with component, voice, kit, and source tags
+    limit: Catalog presence does not prove that a linked system is current or suitable
+    state: reference
+
+  - id: klaufel-awesome-design-systems
+    name: Awesome Design Systems by klaufel
+    category: index
+    tier: inspiration
+    url: https://github.com/klaufel/awesome-design-systems
+    license: CC0-1.0
+    best_for: Design-system operations, tokens, testing, talks, books, and tooling in one taxonomy
+    limit: Follow canonical sources before treating any item as authoritative
+    state: reference
+
+  - id: awesome-styleguides
+    name: Awesome Styleguides
+    category: index
+    tier: inspiration
+    url: https://github.com/streamich/awesome-styleguides
+    best_for: Public styleguide, workbench, comparator, and documentation discovery
+    limit: Many linked styleguides are historical and require maintenance checks
+    state: reference
+
+  - id: awesome-tailwindcss
+    name: Awesome Tailwind CSS
+    category: index
+    tier: inspiration
+    url: https://github.com/aniftyco/awesome-tailwindcss
+    license: CC0-1.0
+    best_for: Current Tailwind tools, plugins, UI kits, component libraries, and templates
+    limit: Tailwind compatibility does not guarantee semantic-token or accessibility fit
+    state: reference
+
+  - id: awesome-react-components
+    name: Awesome React Components
+    category: index
+    tier: inspiration
+    url: https://github.com/brillout/awesome-react-components
+    license: CC0-1.0
+    best_for: React component discovery organized around concrete interaction jobs
+    limit: Verify maintenance, semantics, dependencies, and license per component
+    state: reference
+
+  - id: awesome-storybook
+    name: Awesome Storybook
+    category: index
+    tier: inspiration
+    url: https://github.com/lauthieb/awesome-storybook
+    license: CC0-1.0
+    best_for: Storybook addons, examples, documentation, and visual-review workflow discovery
+    limit: Confirm addon compatibility with the installed Storybook major version
     state: reference
