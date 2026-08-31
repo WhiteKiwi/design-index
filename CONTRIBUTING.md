@@ -31,6 +31,7 @@ Every addition must include:
 - a concrete takeaway;
 - at least one limit, risk, or adoption condition;
 - source repository and license status when relevant;
+- one reuse status, with a note for `conditional` or `verify`;
 - verification date in `data/references.yml` when added to the shortlist.
 
 ## What we usually decline
@@ -66,6 +67,15 @@ Rejection is about fit and signal, not a verdict on the project’s quality.
 - `implemented`: present in production and visually verified.
 
 An item may have different states in different products. This repository defaults to `reference`.
+
+## Reuse status
+
+- `permitted`: commercial reuse is permitted under the recorded license and its conditions.
+- `conditional`: commercial end use is possible but additional restrictions apply; explain them in `reuse_note`.
+- `verify`: terms vary or are not established for the exact item; explain what must be checked in `reuse_note`.
+- `reference-only`: the item is for study; its presence does not grant permission to copy code, screens, or assets.
+
+Do not infer permission for linked resources from an index's own license. Recheck the authoritative license or terms before changing an entry to `permitted`.
 
 ## Make a change
 

@@ -50,18 +50,31 @@ Principle → System → Primitive → Component → Pattern → Product
 
 The machine-readable [reference catalog](data/references.yml) is a maintained shortlist, while the guides provide broader research and decision context.
 
+## Reuse status
+
+An entry in this index is not automatically licensed for commercial reuse. The catalog separates usefulness as a reference from permission to copy code or assets.
+
+| Status | Meaning |
+| --- | --- |
+| `permitted` | the linked source is available for commercial reuse under the recorded license and its conditions |
+| `conditional` | commercial end use is possible, but extra restrictions such as no resale or redistribution apply |
+| `verify` | terms vary by component, author, or paid tier; check the exact item before use |
+| `reference-only` | study the idea or product; the entry does not establish permission to copy its code, screens, or assets |
+
+These labels are a review aid, not legal advice or a substitute for reading the current license and terms at adoption time. An index repository's license covers the index itself, not everything it links to.
+
 ## Current shortlist
 
-| Reference | Best used for | Stance |
-| --- | --- | --- |
-| [SEED Design](https://seed-design.io/) | semantic tokens and product-scale foundations | foundation |
-| [GOV.UK Design System](https://design-system.service.gov.uk/) | research-backed patterns and public contribution governance | foundation |
-| [Base UI](https://base-ui.com/react/overview/about) | accessible unstyled React behavior | implementation |
-| [React Aria Components](https://react-aria.adobe.com/) | accessible, internationalized behavior with composable styling | implementation |
-| [shadcn/ui](https://ui.shadcn.com/) | open-code component ownership | implementation; adapt deliberately |
-| [Motion Primitives](https://motion-primitives.com/) | focused, inspectable motion patterns | implementation; use sparingly |
-| [Mobbin](https://mobbin.com/) | real product screens and end-to-end flows | inspiration with product context |
-| [Recent (formerly Godly)](https://recent.design/) | expressive web art direction | inspiration only |
+| Reference | Best used for | Stance | Reuse |
+| --- | --- | --- | --- |
+| [SEED Design](https://seed-design.io/) | semantic tokens and product-scale foundations | foundation | reference-only |
+| [GOV.UK Design System](https://design-system.service.gov.uk/) | research-backed patterns and public contribution governance | foundation | permitted (MIT) |
+| [Base UI](https://base-ui.com/react/overview/about) | accessible unstyled React behavior | implementation | permitted (MIT) |
+| [React Aria Components](https://react-aria.adobe.com/) | accessible, internationalized behavior with composable styling | implementation | permitted (Apache-2.0) |
+| [shadcn/ui](https://ui.shadcn.com/) | open-code component ownership | implementation; adapt deliberately | permitted (MIT) |
+| [Motion Primitives](https://motion-primitives.com/) | focused, inspectable motion patterns | implementation; use sparingly | permitted (MIT) |
+| [Mobbin](https://mobbin.com/) | real product screens and end-to-end flows | inspiration with product context | reference-only |
+| [Recent (formerly Godly)](https://recent.design/) | expressive web art direction | inspiration only | reference-only |
 
 ## Curation contract
 
@@ -69,7 +82,7 @@ The machine-readable [reference catalog](data/references.yml) is a maintained sh
 2. Say **why it belongs** and name the useful idea precisely.
 3. Record a limit, risk, or condition; no source is universally adoptable.
 4. Keep one primary category per entry and reject duplicates.
-5. Verify licenses, dependencies, semantics, keyboard use, focus, responsive behavior, and reduced motion before adoption.
+5. Treat `reuse` as a screening label, then verify current licenses, terms, dependencies, semantics, keyboard use, focus, responsive behavior, and reduced motion before adoption.
 6. Separate `reference`, `candidate`, `approved`, and `implemented`.
 7. Remove stale entries when their remaining historical value is not explicit.
 

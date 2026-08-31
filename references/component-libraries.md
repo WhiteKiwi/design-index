@@ -18,9 +18,9 @@ These are implementation catalogs. Evaluate individual components; do not import
 | [shadcn/ui](https://ui.shadcn.com/) | open-code distribution and local component ownership | [shadcn-ui/ui](https://github.com/shadcn-ui/ui), MIT | copied source becomes product-owned; replace default tokens and compositions deliberately |
 | [Watermelon UI](https://ui.watermelon.sh/) | broad React component and dashboard exploration | [WatermelonCorp/watermelon-platform](https://github.com/WatermelonCorp/watermelon-platform), MIT | breadth is not consistency; audit semantics, dependencies, focus, narrow layouts, and motion per component |
 | [Skiper UI](https://skiper-ui.com/) | uncommon shadcn-compatible interactions and signature moments | free and paid registry items coexist | verify exact terms, dependencies, keyboard path, and reduced-motion fallback |
-| [React Bits](https://www.reactbits.dev/) | animated text, backgrounds, cursors, and interaction prototypes | [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits), MIT + Commons Clause | effects can compete with content and increase GPU or motion cost; ship a static fallback |
-| [Uiverse](https://uiverse.io/) | community HTML/CSS, Tailwind, React, and Figma microinteraction exploration | [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy), MIT | community quality varies; rebuild semantics, states, tokens, focus, and responsive behavior |
-| [21st.dev](https://21st.dev/) | shadcn-compatible component discovery and concept comparison | verify per author and component | a registry is a search surface, not design authority |
+| [React Bits](https://www.reactbits.dev/) | animated text, backgrounds, cursors, and interaction prototypes | [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits), commercial end-product use allowed; no selling, sublicensing, or redistributing components | effects can compete with content and increase GPU or motion cost; ship a static fallback |
+| [Uiverse](https://uiverse.io/) | community HTML/CSS, Tailwind, React, and Figma microinteraction exploration | verify the exact community element; the [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) repository license is not blanket permission for every submission | community quality varies; rebuild semantics, states, tokens, focus, and responsive behavior |
+| [21st.dev](https://21st.dev/) | shadcn-compatible component discovery and concept comparison | verify per author and component; marketplace demos and previews have separate restrictions | a registry is a search surface, not design authority |
 | [Animate UI](https://animate-ui.com/docs) | inspectable Motion-powered components distributed as open code | [imskyleen/animate-ui](https://github.com/imskyleen/animate-ui), MIT | preserve keyboard continuity and a meaningful reduced-motion state |
 | [Motion Primitives](https://motion-primitives.com/) | small customizable React motion patterns | [ibelick/motion-primitives](https://github.com/ibelick/motion-primitives), MIT | test interruption, repeat visits, low-powered devices, and `prefers-reduced-motion` |
 
@@ -30,7 +30,7 @@ These are implementation catalogs. Evaluate individual components; do not import
 | --- | --- | --- | --- |
 | [Storybook](https://storybook.js.org/) | isolated component states, documentation, and repeatable interaction or visual review | [storybookjs/storybook](https://github.com/storybookjs/storybook), MIT | isolated stories can hide routing, data, integration, and page-composition problems |
 | [shadcn Charts](https://ui.shadcn.com/charts) | token-friendly Recharts presentation with owned source | [shadcn-ui/ui](https://github.com/shadcn-ui/ui), MIT | preserve the accessibility layer, text summaries, responsive height, and non-color encoding |
-| [Tremor Blocks](https://blocks.tremor.so/) | dashboards, KPIs, tables, filters, and chart compositions | [tremorlabs/tremor](https://github.com/tremorlabs/tremor), Apache-2.0 for the linked repository | verify exact block terms, reduce dashboard chrome, and map every state into the host system |
+| [Tremor Blocks](https://blocks.tremor.so/) | dashboards, KPIs, tables, filters, and chart compositions | [tremorlabs/tremor-blocks](https://github.com/tremorlabs/tremor-blocks), MIT | reduce dashboard chrome and map every state into the host system |
 
 ## Selection guide
 

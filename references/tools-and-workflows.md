@@ -18,12 +18,12 @@ Treat its controls as prompts for product-specific judgment, not universal defau
 
 | Source | Discovery lane | Verify before adoption |
 | --- | --- | --- |
-| [21st.dev](https://21st.dev/) | shadcn-compatible component discovery | author, component license, dependencies, semantics, and maintenance |
+| [21st.dev](https://21st.dev/) | shadcn-compatible component discovery | author and component license; marketplace previews are separately restricted; dependencies, semantics, and maintenance |
 | [Watermelon UI](https://ui.watermelon.sh/) | broad React components and dashboard ideas | consistency, focus, narrow layout, and source fit per component |
 | [Skiper UI](https://skiper-ui.com/) | uncommon interactions and signature motion | free/paid terms, keyboard path, and reduced-motion fallback |
-| [React Bits](https://www.reactbits.dev/) | text, background, cursor, and interaction motion | exact license, GPU cost, interruption, and static fallback |
-| [Uiverse](https://uiverse.io/) | community microinteractions across several stacks | provenance, semantics, state completeness, and responsive behavior |
-| [Tremor Blocks](https://blocks.tremor.so/) | dashboard and data-product compositions | exact block terms, dependency cost, and accessible data summary |
+| [React Bits](https://www.reactbits.dev/) | text, background, cursor, and interaction motion | no component resale or redistribution; GPU cost, interruption, and static fallback |
+| [Uiverse](https://uiverse.io/) | community microinteractions across several stacks | exact element terms and provenance; semantics, state completeness, and responsive behavior |
+| [Tremor Blocks](https://blocks.tremor.so/) | dashboard and data-product compositions | linked source repository's MIT terms, dependency cost, and accessible data summary |
 
 Registries accelerate exploration. They do not decide hierarchy, brand, accessibility, maintenance cost, or whether an effect is needed.
 

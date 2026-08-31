@@ -9,10 +9,11 @@ catalog = YAML.safe_load(File.read(path), permitted_classes: [Date])
 errors = []
 
 required_top_level = %w[schema_version last_verified references]
-required_entry = %w[id name category tier url best_for state]
+required_entry = %w[id name category tier url reuse best_for state]
 categories = %w[principle system primitive library flow portfolio workflow index]
 tiers = %w[foundation implementation inspiration]
 states = %w[reference candidate approved implemented]
+reuse_statuses = %w[permitted conditional verify reference-only]
 
 required_top_level.each do |key|
   errors << "missing top-level key: #{key}" unless catalog.key?(key)
@@ -52,6 +53,15 @@ references.each_with_index do |entry, index|
   errors << "#{label} unknown category: #{entry['category']}" unless categories.include?(entry["category"])
   errors << "#{label} unknown tier: #{entry['tier']}" unless tiers.include?(entry["tier"])
   errors << "#{label} unknown state: #{entry['state']}" unless states.include?(entry["state"])
+  errors << "#{label} unknown reuse status: #{entry['reuse']}" unless reuse_statuses.include?(entry["reuse"])
+
+  if %w[permitted conditional].include?(entry["reuse"]) && entry["license"].to_s.strip.empty?
+    errors << "#{label} reuse #{entry['reuse']} requires a license"
+  end
+
+  if %w[conditional verify].include?(entry["reuse"]) && entry["reuse_note"].to_s.strip.empty?
+    errors << "#{label} reuse #{entry['reuse']} requires a reuse_note"
+  end
 
   next unless entry["repository"]
 
