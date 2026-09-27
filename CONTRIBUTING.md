@@ -92,8 +92,13 @@ Do not infer permission for linked resources from an index's own license. Rechec
      --exclude '^https://motion-primitives\.com/?$' \
      --exclude '^https://pageflows\.com/?$' \
      --exclude '^https://styledictionary\.com/?$' \
-     --exclude '^https://design-system\.service\.gov\.uk/?$'
+     --exclude '^https://design-system\.service\.gov\.uk/?$' \
+     --exclude '^https://www\.siteinspire\.com/?$' \
+     --exclude '^https://www\.lapa\.ninja/?$' \
+     --exclude '^https://designspells\.com/?$'
    ```
+
+   The excluded sites block or rate-limit automated requests; open their canonical pages manually when editing their entries.
 
 6. Open a pull request using the template and explain what decision the change improves.
 

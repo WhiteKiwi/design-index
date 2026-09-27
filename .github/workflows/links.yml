@@ -30,7 +30,7 @@ jobs:
       - name: Check Markdown links
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8
         with:
-          # These canonical sites time out, reset, or rate-limit GitHub-hosted clients.
+          # These canonical sites time out, reset, block, or rate-limit GitHub-hosted clients.
           args: >-
             --verbose --no-progress
             --exclude '^https://jvns\.ca/?$'
@@ -38,5 +38,8 @@ jobs:
             --exclude '^https://pageflows\.com/?$'
             --exclude '^https://styledictionary\.com/?$'
             --exclude '^https://design-system\.service\.gov\.uk/?$'
+            --exclude '^https://www\.siteinspire\.com/?$'
+            --exclude '^https://www\.lapa\.ninja/?$'
+            --exclude '^https://designspells\.com/?$'
             './**/*.md'
           fail: true
