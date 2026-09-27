@@ -63,7 +63,7 @@ An entry in this index is not automatically licensed for commercial reuse. The c
 
 These labels are a review aid, not legal advice or a substitute for reading the current license and terms at adoption time. An index repository's license covers the index itself, not everything it links to.
 
-## Current shortlist
+## Selected starting points
 
 | Reference | Best used for | Stance | Reuse |
 | --- | --- | --- | --- |
@@ -74,7 +74,11 @@ These labels are a review aid, not legal advice or a substitute for reading the 
 | [shadcn/ui](https://ui.shadcn.com/) | open-code component ownership | implementation; adapt deliberately | permitted (MIT) |
 | [Motion Primitives](https://motion-primitives.com/) | focused, inspectable motion patterns | implementation; use sparingly | permitted (MIT) |
 | [Mobbin](https://mobbin.com/) | real product screens and end-to-end flows | inspiration with product context | reference-only |
+| [SaaSFrame](https://www.saasframe.io/) | SaaS marketing, product, and email journeys | inspiration with product context | reference-only |
 | [Recent (formerly Godly)](https://recent.design/) | expressive web art direction | inspiration only | reference-only |
+| [Siteinspire](https://www.siteinspire.com/) | web examples filtered by style, type, and subject | inspiration only | reference-only |
+| [Lapa Ninja](https://www.lapa.ninja/) | full-page landing references | inspiration only | reference-only |
+| [Design Spells](https://designspells.com/) | small interaction and motion details | inspiration only | reference-only |
 
 ## Curation contract
 
