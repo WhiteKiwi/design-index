@@ -1,5 +1,5 @@
 schema_version: 3
-last_verified: 2026-08-31
+last_verified: 2026-09-27
 
 references:
   - id: seed-design
@@ -246,6 +246,26 @@ references:
     best_for: Recorded web and mobile user flows with intermediate states
     state: reference
 
+  - id: refero
+    name: Refero
+    category: flow
+    tier: inspiration
+    url: https://refero.design/
+    reuse: reference-only
+    best_for: Real-product screens grouped by pattern, product, and category
+    limit: Verify recency and live behavior before treating a capture as a product pattern
+    state: reference
+
+  - id: saasframe
+    name: SaaSFrame
+    category: flow
+    tier: inspiration
+    url: https://www.saasframe.io/
+    reuse: reference-only
+    best_for: SaaS marketing, product, and email examples within one product journey
+    limit: Many screens and flows require Pro; captures do not establish current behavior or outcomes
+    state: reference
+
   - id: recent-design
     name: Recent (formerly Godly)
     category: flow
@@ -253,6 +273,86 @@ references:
     url: https://recent.design/
     reuse: reference-only
     best_for: Contemporary expressive web art direction and composition
+    state: reference
+
+  - id: awwwards
+    name: Awwwards
+    category: flow
+    tier: inspiration
+    url: https://www.awwwards.com/websites/
+    reuse: reference-only
+    best_for: Award-recognized experimental web art direction and interactions
+    limit: Jury scores do not establish accessibility or product fit
+    state: reference
+
+  - id: siteinspire
+    name: Siteinspire
+    category: flow
+    tier: inspiration
+    url: https://www.siteinspire.com/
+    reuse: reference-only
+    best_for: Comparing websites by style, type, subject, and platform
+    limit: Gallery images omit interaction states, responsive behavior, and accessibility evidence
+    state: reference
+
+  - id: curated-design
+    name: Curated
+    category: flow
+    tier: inspiration
+    url: https://curated.design/
+    reuse: reference-only
+    best_for: Comparing live web art direction across industries and styles
+    limit: Advanced filters require Pro; sponsored cards and templates are separate from live references
+    state: reference
+
+  - id: minimal-gallery
+    name: Minimal Gallery
+    category: flow
+    tier: inspiration
+    url: https://minimal.gallery/
+    reuse: reference-only
+    best_for: Restrained typography, spacing, and editorial web composition
+    limit: Minimal appearance does not establish clear navigation, usable controls, or sufficient contrast
+    state: reference
+
+  - id: one-page-love
+    name: One Page Love
+    category: flow
+    tier: inspiration
+    url: https://onepagelove.com/
+    reuse: reference-only
+    best_for: One-page narrative and section pacing from proposition to action
+    limit: One-page and template examples may not fit complex product navigation
+    state: reference
+
+  - id: landbook
+    name: Landbook
+    category: flow
+    tier: inspiration
+    url: https://land-book.com/
+    reuse: reference-only
+    best_for: Website sections, motion, headlines, and social-preview composition
+    limit: Free browsing is limited and template entries must be distinguished from shipped sites
+    state: reference
+
+  - id: lapa-ninja
+    name: Lapa Ninja
+    category: flow
+    tier: inspiration
+    url: https://www.lapa.ninja/
+    reuse: reference-only
+    best_for: Full-page landing captures and earlier website versions
+    limit: Captures may lag live sites and do not prove current behavior
+    state: reference
+
+  - id: design-spells
+    name: Design Spells
+    category: flow
+    tier: inspiration
+    url: https://designspells.com/
+    reuse: reference-only
+    best_for: Small interaction and motion details from shipped apps
+    limit: Check whether delight adds latency or distraction and respects reduced-motion preferences
     state: reference
 
   - id: brittany-chiang
